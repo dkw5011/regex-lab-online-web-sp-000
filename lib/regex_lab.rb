@@ -24,7 +24,8 @@ end
 
 def valid_phone_number?(phone)
  phone.scan(/\d{10}/)
-   if phone.length 
+   if phone.length = 10
+     return true
  else
    false
  end
